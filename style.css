@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-container{
+    height: 100vh;
+    width: 100%;
+    background: white linear-gradient(45deg, #ff6596, #1E90FF, #d88cff);
+    background-size: 600% 600%;
+    animation: bgAnimatedGradiant 15s infinite linear;
+}
+
+h1{
+    text-align: center;
+    padding-top: 0%;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 6px;
+    font-size: 3vw;
+    color: white;
+}
+
+p{
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.2px;
+    font-size: 1vw;
+    color: white;
+}
+button{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1vw;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.btn {
+
+    padding-top: 0%;
+    text-align: center;
+}
+
+.cloud {
+    text-align: center;
+}
+
+@keyframes bgAnimatedGradiant{
+    0%{
+        background-position: 0 85%;
+    }
+    50%{
+    background-position: 0 20%;
+}
+    100%{
+        background-position: 85% 0;
+    }
+}
